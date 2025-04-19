@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Homework Web page </title>
+
+    <style>
+
+        body{
+            background-image: url(https://i.pinimg.com/736x/af/f6/34/aff634607e19609c09710da65c8a57fd.jpg) ;
+            background-size: cover;
+            background-repeat: repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h1{
+            text-align: center;
+            color: #2c3e50;
+            font-family: cursive ;
+            color: #bcd2e8 ;
+            font-size: 50px;
+            margin-top: 30px;
+
+        }
+
+        .intrest{
+            font-size: 30px;
+            background-color: #3498db;
+            padding: 1px;
+        }
+
+        p{
+            text-align: center;
+            color: #99b9d9;
+            font-size: 25px;
+            margin-top: 1px;
+        }
+
+        .l1{
+            list-style-type: square; 
+            padding: 5px; ;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        
+        .l2{
+            list-style-type: square; 
+            padding: 5px; ;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        
+        .l3{
+            list-style-type: square; 
+            padding: 5px; ;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        
+        .l4{
+            list-style-type: square; 
+            padding: 5px; ;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        
+        .l5{
+            list-style-type: square; 
+            padding: 5px; ;
+            text-align: center;
+            color : whitesmoke;
+            font-size: 20px;
+        }
+        
+        .profile{
+            font-size: 30px;
+            background-color: #3498db;
+            padding: 1px;
+        }
+
+        img {
+                  
+            margin-top: 0px; 
+            margin-left: 740px;
+            /* how to make? image to center without this method? */
+            border-radius: 1000px;
+        }
+
+        .profileinfo{
+            color: black;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* hr{
+            color:rgb(179, 3, 70);
+        } */
+        /*how to make hr tag color change?*/
+
+        .fav{
+            font-size: 40px;
+            background-color: #bfab8c;
+            color:#846306;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .li1{
+            color: darkred;
+            text-align: center;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .li2{
+            color: purple;
+            text-align: center;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .li3{
+            color: darkolivegreen;
+            text-align: center;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .li4{
+            color: orangered;
+            text-align: center;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .li5{
+            color: red;
+            text-align: center;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .contact{
+            font-size: 40px;
+            background-color: #bfab8c;
+            color:#7e5f09;
+            padding: 1px;
+            text-align: center;
+        }
+
+        /* .email{
+            align-content: center;
+            background-color: green;
+        } */
+
+        .emailcontainer{
+            text-align: center;
+            background-color: rgb(224, 131, 9);
+            padding: 10px;
+        }
+
+        .fact{
+            font-size: 40px;
+            background-color: #ae8343;
+            color:#e3dcd0;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .ul1{
+            text-align: center;
+            color:#286186;
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        .ul2{
+            text-align: center;
+            color: #9b59b6;
+            font-size: 24px;
+            padding: 5px;
+        }
+
+        .ul3{
+            text-align: center;
+            color: #0e7ed9;
+            font-size: 30px;
+            padding: 5px;
+        }
+
+        .ytvideo{
+            font-size: 40px;
+            background-color: #79551f;
+            color:#d1c3ab;
+            padding: 1px;
+            text-align: center;
+
+        }
+
+        .youtubevideo{
+            text-align: center;
+            /* width: 50px;
+            height: 50px; */
+        }
+        
+        iframe{
+            align-content: center;
+            /* width: 100%; */
+            width: 80%;
+            height: 800px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        .audio1{
+            font-size: 35px;
+            padding: 1px;
+        }
+
+        .audiocontainer{ /* explanation. i have a doubt in this */
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2%;
+        }
+
+        .smedia{
+            margin-top: 10%;
+            padding: 10px;
+            margin: 10px;
+            font-size: 35px;
+        }
+            
+
+        .socialmedia{
+            text-align: center;
+            font-size: 25px;
+            padding: 1px;
+            margin-bottom: 2%;
+        }
+
+        .socialmedia:hover{
+            color:black;
+            font-size: 20px;
+            transition: 0.3s;
+            
+        }
+
+        .instagram{
+            color:black;
+            font-size: 24px;
+            cursor: pointer;
+            
+        }
+
+        /* explanation of hovering concept */
+
+        .qoute{
+            padding: 1px;
+            margin: 10px;
+            font-size: 40px;
+            padding: 10px;
+
+        }
+
+        blockquote{
+            text-align: center;
+            font-style: italic;
+            color: rgb(159, 163, 237);
+            padding: 1px;
+            font-size: 30px;
+            margin-top: 0%;
+        }
+
+        footer{
+            text-align: center;
+            color: rgb(36, 40, 117);
+            font-size: 30px;
+            background-color: #bcd2e8 ;
+            padding: 10px;
+        }
+
+        .photos{
+            display: flex;
+            justify-content: center;
+            gap : 0px;
+            margin-top: 10px;
+        }
+
+        .img1{
+            border-radius: 0px;
+            max-width: 25%;
+            /* text-align: center; */
+            margin: 10px;
+        }
+          
+        .img2{
+            border-radius: 0px;
+            max-width: 25%;
+            /* text-align: left; */
+            margin: 10px;
+        }
+
+        .img3{
+            border-radius: 0px;
+            max-width: 25%;
+            /* text-align: right; */
+            margin: 10px;
+        }
+
+        .coustomfont{
+            font-size: 40px;
+            background-color: beige;
+            color:#846306;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .cfont{
+            font-family: cursive;
+            color: #1c2834;
+            font-size: 50px;
+        }
+
+        .about-me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 30px;
+            margin: 20px;
+        }
+
+        .about-img {
+            width: 250px;
+            height: 250px;
+            margin-left: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .about-text {
+            font-size: 30px;
+            line-height: 1.6;
+            color: #333;
+            max-width: 500px;
+            text-align: left;
+        }
+        
+        </style>  
+            </head>
+            
+            <body>
+
+                <h1> Sameer Rathod 😉</h1>
+                <p> Heya everyone, i'm sameer👋🏻 currently i'm learning html and css for making web pages</p>
+                <hr>
+                
+                <h1 class="intrest" > My Interest </h1>
+                
+                <ul> 
+                    <li class="l1">Photography 📸</li>
+                    <li class="l2">Editing😌 </li>
+                    <li class="l3">Travelling 🚂 </li>
+                    <li class="l4">Exploring new places 🌎 </li>
+                    <li class="l5">Riding bike and car🚙  </li>
+                </ul>
+                
+                <hr>
+                
+                <h1 class="profile"> Profile </h1>
+                <img src="https://avatars.githubusercontent.com/u/185706723?s=400&u=e592d4b1d0a7d8145a8d3018492c2c9ef6b69d95&v=4"  alt = "sample image"> 
+            </img>
+            
+            <p class="profileinfo">Hello i'm sameer, who don't love much coding but love designing websites </p>
+            
+            <hr> 
+            
+            <h1 class="fav"> Favourite Food </h1>
+            <ol> 
+                <li class="li1">Maa ke hath ka khana</li>
+                <li class="li2">Butter chicken  </li>
+                <li class="li3">Dal bhatt </li>
+                <li class="li4">Maggie </li>
+                <li class="li5">Fries </li>
+            </ol>
+            
+            <hr>
+            
+            <h1 class="contact"> Contact Info </h1>
+            <div class="emailcontainer">
+                <a href ="mailto:sameerrathod2006@gmail.com" class="email" target = " "> E-mail  </a>
+                <br>
+                <a href ="tel:+8433625852" class="phone" target="" > Phone No</a>
+            </div>
+            
+             <hr>
+            
+            <h1 class="fact"> Fun Fact </h1>
+            <ul> 
+                <li class="ul3">i love travelling </li>
+                <li class="ul2">i'm a chai person </li>
+                <li class="ul1">i love designing</li>
+            </ul>
+            
+            <hr>
+            
+            <h1 class="ytvideo"> YouTube Video </h1>
+            <div class="youtubevideo">
+                <iframe width="500" height="1000" src="https://www.youtube.com/embed/bh5U9kv7wCc?si=8Q9I-K54jmvUfhMO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <br>
+            <br>
+            
+            <hr>
+            
+            <h1 class="audio1"> Audio Playlist </h1>
+            <div class="audiocontainer">
+                <audio controls>
+                    <source src="nosurprises.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            
+            <hr>
+
+            <h1 class="smedia"> Social Media Links </h1>
+            <div class="socialmedia">
+                <a href ="https://www.instagram.com/whatisthis.sam?igsh=bjhtcDc0cWZ2cG81&utm_source=qr" class="Instagram" target = " "> Instagram</a>
+                <a href ="https://www.linkedin.com/in/sameer-rathod-234333319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="LinkedIn" target=" " > LinkedIn</a>
+                <a href ="https://x.com/sameerheree?s=21" class="X" target=" " > Twitter</a>
+            </div>
+
+            <hr>
+
+            <h1 class="qoute"> Favourite quote </h1>
+            <blockquote> "The one which is meant for you, will anyhow be yours." </blockquote>
+            <hr>
+
+            <footer>
+                &copy; 2025 Sameer.
+            </footer>
+
+            <hr>
+
+            <h1> Image gallery </h1>
+            <div class="photos">
+            <img src = "https://i.pinimg.com/736x/b4/b4/4f/b4b44ff5b04dc6895700c62db8352a0f.jpg"  class="img1" alt = "sample image">  </img> 
+            <img src = "https://i.pinimg.com/736x/3c/45/fa/3c45fa3591b223d7c74060fd763f2619.jpg"  class="img3" alt = "sample image">  </img>
+            <img src = "https://i.pinimg.com/736x/ce/f4/59/cef459c68c72b316ae414743714079fe.jpg"  class="img2" alt = "sample image">  </img>
+            </div>
+
+            <hr>
+
+            <h1 class="coustomfont"> Custom Font </h1>
+            <p class="cfont"> This is a Custom Font </p>
+            <hr>
+
+            <div class="about-me">
+                <img 
+                    src="https://i.pinimg.com/736x/0a/cb/53/0acb53df3922624786dba5fa0de5af02.jpg" 
+                    alt="Profile Picture" 
+                    class="about-img"
+                >
+                <p class="about-text">
+                    Hi! I'm Sameer — I turn code into creativity and bring pixels to life with modern web design and development skills🚀
+                </p>
+            </div>
+        
+    </body>
+
+</html>
